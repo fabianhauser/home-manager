@@ -253,6 +253,7 @@ in import nmtSrc {
     ./modules/services/swayosd
     ./modules/services/sxhkd
     ./modules/services/syncthing/linux
+    ./modules/services/tailscale-systray
     ./modules/services/trayer
     ./modules/services/twmn
     ./modules/services/udiskie

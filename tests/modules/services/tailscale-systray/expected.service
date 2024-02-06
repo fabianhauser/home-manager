@@ -1,0 +1,12 @@
+[Install]
+WantedBy=graphical-session.target
+
+[Service]
+ExecStart='@tailscale-systray@/bin/tailscale-systray' '-g'
+
+[Unit]
+After=graphical-session-pre.target
+After=tray.target
+Description=Tailscale system tray
+PartOf=graphical-session.target
+Requires=tray.target

@@ -348,6 +348,7 @@ let
     ./services/systembus-notify.nix
     ./services/taffybar.nix
     ./services/tahoe-lafs.nix
+    ./services/tailscale-systray.nix
     ./services/taskwarrior-sync.nix
     ./services/trayer.nix
     ./services/twmn.nix
